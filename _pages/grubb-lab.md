@@ -5,4 +5,8 @@ permalink: /grubb-lab/
 author_profile: true
 ---
 
-Test webpage.
+{% include base_path %}
+
+Education
+======
+* test
