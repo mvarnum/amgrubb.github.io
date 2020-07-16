@@ -14,3 +14,5 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+You can also find my articles on [DBLP](https://dblp.org/pers/hd/g/Grubb:Alicia_M=)
