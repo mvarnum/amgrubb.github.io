@@ -36,7 +36,6 @@ import pandas as pd
 
 publications = pd.read_csv("publications.tsv", sep="\t", header=0)
 publications
-#print("publications: " +publications+" end publications.")
 
 
 # ## Escape special characters
@@ -66,8 +65,6 @@ import os
 for row, item in publications.iterrows():
     str_pub_date = str(item.pub_date)
     str_url_slug = str(item.url_slug)
-    #print("url slug: "+str_url_slug)
-    #print("pub date from item, and in string form: "+item.pub_date + " " + str_pub_date)
     md_filename = str_pub_date + "-" + str_url_slug + ".md"
     html_filename = str_pub_date + "-" + str_url_slug
     year = item.pub_date[:4]
