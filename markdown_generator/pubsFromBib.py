@@ -26,18 +26,18 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-##    "proceeding": {
-##        "file" : "proceedings.bib",
-##        "venuekey": "booktitle",
-##        "venue-pretext": "In the proceedings of ",
-##        "collection" : {"name":"publications",
-##                        "permalink":"/publication/"}
-##        
-##    },
+    "proceeding": {
+        "file" : "proceedings.bib",
+        #"venuekey": "booktitle",
+        #"venue-pretext": "In the proceedings of ",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+        
+    },
     "journal":{
         "file": "pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
+        #"venuekey" : "journal",
+        #"venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
     } 
@@ -72,17 +72,17 @@ for pubsource in publist:
             pub_year = f'{b["date"]}'
 
             #todo: this hack for month and day needs some cleanup
-##            if "month" in b.keys(): 
-##                if(len(b["month"])<3):
-##                    pub_month = "0"+b["month"]
-##                    pub_month = pub_month[-2:]
-##                elif(b["month"] not in range(12)):
-##                    tmnth = strptime(b["month"][:3],'%b').tm_mon   
-##                    pub_month = "{:02d}".format(tmnth) 
-##                else:
-##                    pub_month = str(b["month"])
-##            if "day" in b.keys(): 
-##                pub_day = str(b["day"])
+            if "month" in b.keys(): 
+                if(len(b["month"])<3):
+                    pub_month = "0"+b["month"]
+                    pub_month = pub_month[-2:]
+                elif(b["month"] not in range(12)):
+                    tmnth = strptime(b["month"][:3],'%b').tm_mon   
+                    pub_month = "{:02d}".format(tmnth) 
+                else:
+                    pub_month = str(b["month"])
+            if "day" in b.keys(): 
+                pub_day = str(b["day"])
 
                 
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
