@@ -6,4 +6,4 @@ date: 2018-01-01
 venue: 'In the proceedings of 2018'
 citation: ' Alicia Grubb,  Marsha Chechik, &quot;BloomingLeaf- A Formal Tool for Requirements Evolution over Time.&quot; In the proceedings of 2018, 2018.'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=BloomingLeaf:+A+Formal+Tool+for+Requirements+Evolution+over+Time){:target="_blank"} for full citation
+Use [Google Scholar](https://scholar.google.com/scholar?q=BloomingLeaf++A+Formal+Tool+for+Requirements+Evolution+over+Time){:target="_blank"} for full citation

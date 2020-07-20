@@ -9,4 +9,4 @@ citation: ' Alicia Grubb, &quot;Seminar- Responsible Computing.&quot; In the pro
 ---
 Published: Susan Badian Lindenauer &apos;61 Fund in Support of the Ethics Program (\$3,500)
 
-Use [Google Scholar](https://scholar.google.com/scholar?q=Seminar:+Responsible+Computing){:target="_blank"} for full citation
+Use [Google Scholar](https://scholar.google.com/scholar?q=Seminar++Responsible+Computing){:target="_blank"} for full citation

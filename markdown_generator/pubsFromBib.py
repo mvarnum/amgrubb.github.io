@@ -88,14 +88,13 @@ for pubsource in publist:
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
-            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
+            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-").replace(":","-")    
 
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
-            url_slug = url_slug.replace(":","test")
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
+            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-").replace(":","-")
+            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-").replace(":","-")
 
             #Build Citation from text
             citation = ""
@@ -150,7 +149,7 @@ for pubsource in publist:
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
             else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
+                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
 
