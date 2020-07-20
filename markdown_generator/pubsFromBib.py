@@ -28,7 +28,7 @@ import re
 publist = {
     "proceeding": {
         "file" : "pubs.bib",
-        "venuekey": "title",
+        "venuekey": "date",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
@@ -92,7 +92,7 @@ for pubsource in publist:
 
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
-            url_slug = url_slug.replace(":","-")
+            url_slug = url_slug.replace(":","test")
 
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
@@ -106,17 +106,17 @@ for pubsource in publist:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
-            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
+            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")).replace(":","-") + ".\""
 
             #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","").replace(":","-")
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
 
             
             ## YAML variables
-            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
+            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")).replace(":","-") + '"\n'
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
