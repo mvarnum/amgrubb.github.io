@@ -28,7 +28,7 @@ import re
 publist = {
     "proceeding": {
         "file" : "pubs.bib",
-        "venuekey": "booktitle",
+        "venuekey": "title",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
