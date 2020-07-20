@@ -16,6 +16,6 @@ independently arrived at a domain specific version of a generic layout algorithm
 As initial validation of the effectiveness and scalability of our algorithm, we implement our approach in AnonymousTool, a goal model analysis tool. Initial results are promising; yet, further collaboration and validation across the various goal modeling approaches (e.g., GRL, iStar, Tropos) is required before we can recommend our approach to be adopted in tooling. This paper presents early results and lays a foundation for discussion within our GORE community.-->
 
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](http://amgrubb.github.io/files/2020-RENext-Wang.pdf)
 
 Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
