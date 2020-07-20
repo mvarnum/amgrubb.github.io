@@ -1,7 +1,7 @@
 ---
 title: "Towards a General Solution for Layout of Visual Goal Models with Actors"
 collection: publications
-permalink: /publication/2020-RENext-Wang
+permalink: /files/2020-RENext-Wang
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2020-09-01
 venue: 'Proceedings of the IEEE 28th International Requirements Engineering Conference (RE'20)'
