@@ -26,21 +26,21 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-    "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-        
-    },
-##    "journal":{
-##        "file": "pubs.bib",
-##        "venuekey" : "journal",
-##        "venue-pretext" : "",
+##    "proceeding": {
+##        "file" : "proceedings.bib",
+##        "venuekey": "booktitle",
+##        "venue-pretext": "In the proceedings of ",
 ##        "collection" : {"name":"publications",
 ##                        "permalink":"/publication/"}
-##    } 
+##        
+##    },
+    "journal":{
+        "file": "pubs.bib",
+        "venuekey" : "journal",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+    } 
 }
 
 html_escape_table = {
@@ -63,8 +63,8 @@ for pubsource in publist:
     for bib_id in bibdata.entries:
         #reset default date
         pub_year = "1900"
-        #pub_month = "01"
-        #pub_day = "01"
+        pub_month = "01"
+        pub_day = "01"
         
         b = bibdata.entries[bib_id].fields
         #print("feilds: " + str(b))
@@ -85,7 +85,7 @@ for pubsource in publist:
 ##                pub_day = str(b["day"])
 
                 
-            pub_date = pub_year#+"-"+pub_month+"-"+pub_day
+            pub_date = pub_year+"-"+pub_month+"-"+pub_day
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
             clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    

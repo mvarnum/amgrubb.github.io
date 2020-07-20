@@ -1,8 +1,8 @@
 ---
 title: "GowingLeaf: Goal Model Analysis Over Time"
 collection: publications
-permalink: /publication/2015-GowingLeaf-Goal-Model-Analysis-Over-Time
-date: 2015
+permalink: /publication/2015-01-01-GowingLeaf-Goal-Model-Analysis-Over-Time
+date: 2015-01-01
 paperurl: 'http://www.cs.toronto.edu/ amgrubb/growing-leaf.html'
 citation: ' Alicia Grubb, &quot;GowingLeaf: Goal Model Analysis Over Time.&quot;, 2015.'
 ---
