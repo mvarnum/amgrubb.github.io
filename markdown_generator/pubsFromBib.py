@@ -27,17 +27,17 @@ import re
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "proceedings.bib",
-        #"venuekey": "booktitle",
-        #"venue-pretext": "In the proceedings of ",
+        "file" : "pubs.bib",
+        "venuekey": "booktitle",
+        "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
     },
     "journal":{
         "file": "pubs.bib",
-        #"venuekey" : "journal",
-        #"venue-pretext" : "",
+        "venuekey" : "journal",
+        "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
     } 
@@ -108,9 +108,9 @@ for pubsource in publist:
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
             #add venue logic depending on citation type
-            #venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
 
-            #citation = citation + " " + html_escape(venue)
+            citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
 
             
@@ -129,7 +129,7 @@ for pubsource in publist:
 
             md += "\ndate: " + str(pub_date) 
 
-            #md += "\nvenue: '" + html_escape(venue) + "'"
+            md += "\nvenue: '" + html_escape(venue) + "'"
             
             url = False
             if "url" in b.keys():
