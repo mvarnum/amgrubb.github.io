@@ -35,7 +35,6 @@ Publications such as Lucy's Paper and Kate and Megan's Paper will go here.
 
 [BloomingLeaf Code Repository](https://github.com/amgrubb/BloomingLeaf)
 
-[]: <> ([BloomingLeaf V1 Demo](http://www.cs.utoronto.ca/~amgrubb/leaf-blooming-ui/)) 
 
 ## Lab Alumni 
 
