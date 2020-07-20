@@ -3,10 +3,13 @@ main:
   - title: "Grubb-Lab"
     url: /grubb-lab/ 
 
-  - title: "Publications"
-    url: /publications/
+  - title: "Publications1"
+    url: /publications1/
 
-#  - title: "Talks"
+  - title: "Publications2"
+    url: /publications2/
+
+    #  - title: "Talks"
 #    url: /talks/    
 
 #  - title: "Teaching"
