@@ -57,7 +57,8 @@ def html_escape(text):
 for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
-
+    #print("bibdata.entries: "+ str(bibdata.entries))
+    
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
         #reset default date
@@ -66,9 +67,9 @@ for pubsource in publist:
         #pub_day = "01"
         
         b = bibdata.entries[bib_id].fields
-        
+        #print("feilds: " + str(b))
         try:
-            pub_year = f'{b["year"]}'
+            pub_year = f'{b["date"]}'
 
             #todo: this hack for month and day needs some cleanup
 ##            if "month" in b.keys(): 
@@ -100,7 +101,7 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                print("author: " + str(author))
+                #print("author: " + str(author))
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
@@ -154,8 +155,9 @@ for pubsource in publist:
 
             with open("../_publications/" + md_filename, 'w') as f:
                 f.write(md)
-            print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
+            #print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
+            #print("publist: "+str(publist))
             continue
