@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Publications2"
+permalink: /publications2/
 author_profile: true
 ---
 
@@ -15,7 +15,7 @@ You can also find my publications on [DBLP](https://dblp.org/pers/hd/g/Grubb:Ali
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% for post in site.publications2 reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
