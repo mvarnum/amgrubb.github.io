@@ -119,11 +119,11 @@ for pubsource in publist:
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
-            note = False
-            if "note" in b.keys():
-                if len(str(b["note"])) > 5:
-                    md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
-                    note = True
+            annotation = False
+            if "annotation" in b.keys():
+                if len(str(b["annotation"])) > 5:
+                    md += "\nexcerpt: '" + html_escape(b["annotation"]) + "'"
+                    annotation = True
 
             md += "\ndate: " + str(pub_date) 
 
@@ -132,8 +132,9 @@ for pubsource in publist:
             url = False
             if "url" in b.keys():
                 if len(str(b["url"])) > 5:
-                    md += "\npaperurl: '" + b["url"] + "'"
+                    #md += "\npaperurl: '" + b["url"] + "'"
                     url = True
+
             abstract = False
             if "abstract" in b.keys():
                 abstract = True
@@ -144,8 +145,8 @@ for pubsource in publist:
 
             
             ## Markdown description for individual page
-            if note:
-                md += "\n" + html_escape(b["note"]) + "\n"
+            if annotation:
+                md += "\n" + html_escape(b["annotation"]) + "{:target=\"_blank\"}\n"
 
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
