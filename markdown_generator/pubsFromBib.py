@@ -41,7 +41,15 @@ publist = {
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
-    } 
+    }
+##    ,
+##        "book":{
+##        "file": "book.bib",
+##        "venuekey" : "booktitle",
+##        "venue-pretext" : "",
+##        "collection" : {"name":"publications",
+##                        "permalink":"/publication/"}
+##    }
 }
 
 ##html_escape_table = {
@@ -154,8 +162,8 @@ for pubsource in publist:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
 ##            else:
 ##                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
-            #if abstract:
-               #md+= "\n"+ "Abstract: "+ b["abstract"]+"\n"
+            if abstract:
+               md+= "\n"+ "Abstract: "+ b["abstract"].replace("\\textbackslash","\\").replace("{", "").replace("}","")+"\n"
 
                                 
             md_filename = os.path.basename(md_filename)
