@@ -127,9 +127,10 @@ for pubsource in publist:
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
+
+            md += """\nexcerpt: """ + ""
             
             annotation = False
-            
             if "annotation" in b.keys():
                 if len(str(b["annotation"])) > 5:
                     #md += "\nexcerpt: '" + b["annotation"] + "'"
