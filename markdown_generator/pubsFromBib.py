@@ -152,7 +152,7 @@ for pubsource in publist:
 ##            else:
 ##                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
             if abstract:
-               md+= "\n"+ b["abstract"]+"\n"
+               md+= "\n"+ "Abstract: "+ b["abstract"]+"\n"
 
                                 
             md_filename = os.path.basename(md_filename)
