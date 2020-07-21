@@ -15,6 +15,7 @@
 # TODO: Make this work with other databases of citations, 
 # TODO: Merge this with the existing TSV parsing solution
 
+##GRUBB LAB: journal.bib has any journal papers, pubs.bib is the rest. Make sure both are exported as BibLatex
 
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
@@ -120,9 +121,10 @@ for pubsource in publist:
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
             annotation = False
+            
             if "annotation" in b.keys():
                 if len(str(b["annotation"])) > 5:
-                    md += "\nexcerpt: '" + b["annotation"] + "'"
+                    #md += "\nexcerpt: '" + b["annotation"] + "'"
                     annotation = True
 
             md += "\ndate: " + str(pub_date) 
@@ -146,7 +148,7 @@ for pubsource in publist:
             
             ## Markdown description for individual page
             if annotation:
-                md += "\n" + b["annotation"] + "{:target=\"_blank\"}\n"
+                md += "\n" + b["annotation"].replace("{\\textasciitilde}","~") + "\n"
 
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 

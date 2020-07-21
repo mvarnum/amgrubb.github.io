@@ -32,6 +32,7 @@
 
 @inproceedings{hu_support_2019,
 	title = {Support for User Generated Evolutions of Goal Models},
+	abstract = {Goal models are used in early phase requirements engineering to elicit stakeholders' intentions, analyze dependencies, and help stakeholders make trade-off decisions about the project and its interaction with the environment. The Evolving Intentions  framework extended goal model analysis to evaluate how models change over time, by creating simulation paths showing possible evolutions of the model. More recently, we extended this analysis to allow users to explore states along the path and generate their own simulation paths. However, this approach is limited by users ability to comprehend the state space, which grows exponentially with the size of the model. In this paper, we explore using filters to reduce the number of viewable solutions enabling users to create their own simulation results. We present our approach and initial validation, including an analysis of prior models and a review of expert feedback.},
 	pages = {1--7},
 	booktitle = {Proceedings of the 11th International Workshop on Modeling in Software Engineering {MiSE}},
 	author = {Hu, Boyue Caroline and Grubb, Alicia M.},
@@ -44,17 +45,24 @@
 	institution = {University of Toronto},
 	type = {phdthesis},
 	author = {Grubb, Alicia M.},
-	date = {2019}
+	date = {2019},
+	annotation = {In early-phase software engineering, stakeholders organize and define system requirements, constraints within the domain and environment, and stakeholders' intentions (i.e., goals, tasks, resources, and soft-goals/qualities). Modeling stakeholder goals and intentions helps stakeholders understand the problem context and evaluate tradeoffs, by exploring possible ``what if'' questions. Using these techniques, stakeholders are unable to reason about possible evolutions of scenarios, leaving questions unanswered about project viability when the fulfillment of goals or availability of components is not guaranteed in the future. This project focuses on specifying, modeling, and reasoning about goals that change over time (relative or absolute). Using simulation and {SAT}-based analysis, we created and validated a methodology for asking and answering questions about the evolution of qualitative goal models.}
 }
 
 @inproceedings{grubb_reflection_2018,
 	title = {Reflection on Evolutionary Decision Making with Goal Modeling via Empirical Studies},
 	url = {http://www.cs.toronto.edu/~amgrubb/archive/RE18.pdf},
+	abstract = {Goal models have long been used in academia without wide spread adoption in industry. If the fundamental purpose of goal models is to allow stakeholders to generate scenarios and ask “what if” questions, then which parts of the process
+of model construction, analysis, and evolution benefit from and which are hindered by manual activities? The recent expansion
+of goal modelling to ask time-based questions further amplifies this issue because significant additional information is required
+from stakeholders. Through a series of empirical studies, we aim to isolate the processes of model construction, analysis, and
+evolution for the purpose of studying the utility of goal-oriented requirements engineering approaches and exploring which tasks
+are essential practices that stakeholders must complete themselves to gain modeling benefit, and which tasks can be simplified through automation. In this process, we will also measure the benefits of completing relevant goal modelling activities with and without timing analysis. In this short communication, we describe our objectives for understanding the benefits of and barriers to
+goal-oriented requirements engineering.},
 	pages = {376--381},
 	booktitle = {Proceedings of the {IEEE} 26th International Requirements Engineering Conference {RE}},
 	author = {Grubb, Alicia M.},
-	date = {2018},
-	annotation = {[More information](http://www.cs.toronto.edu/{\textasciitilde}amgrubb/)}
+	date = {2018}
 }
 
 @inproceedings{grubb_bloomingleaf_2018,
@@ -68,6 +76,7 @@
 @inproceedings{li_understanding_2016,
 	title = {Understanding Challenges and Tradeoffs in {iStar} Tool Development},
 	url = {http://www.cs.toronto.edu/~amgrubb/archive/iStar16Li.pdf},
+	abstract = {Many {iStar}-based modeling and analysis tools have been developed for specific {iStar}-related purposes (e.g., tools enumerated in {iStar} wiki). Despite the proliferation of tools, new tools keep being built, taking resources and time and possibly "reinventing the wheel" in terms of tool functionality. To gain an in-depth understanding of this situation, we are interested in the challenges and tradeoffs in creating {iStar} tools. In this paper, we examine three diverse tools as case studies, illustrating the challenges and tradeoffs from the developer's perspective. Based on such studies, we establish a goal model to capture the collected knowledge, which can help researchers to make informed decisions and optimize their tool development.},
 	pages = {49--54},
 	booktitle = {Proceedings of the Ninth International i* Workshop  {iStar}},
 	author = {Li, Tong and Grubb, Alicia M. and Horkoff, Jennifer},
@@ -77,6 +86,8 @@
 @inproceedings{grubb_adding_2015,
 	title = {Adding Temporal Intention Dynamics to Goal Modeling: A Position Paper},
 	url = {http://www.cs.toronto.edu/~amgrubb/archive/MiSE-2015.pdf},
+	abstract = {Goal models for early phase requirements enable modelers to elicit stakeholders' intentions, analyze dependencies and select preferred alternatives. Standard analysis techniques provide options for analysis of static goal models but do not consider the dynamic environment that the model represents and do not evaluate the intentions over time. In this position paper, we
+illustrate that goal model analysis for early phase requirements can be improved by explicitly considering the intention dynamics of a potential system across multiple time scales.},
 	pages = {66--71},
 	booktitle = {Proceedings of the Seventh International Workshop on Modeling in Software Engineering {MiSE}},
 	author = {Grubb, Alicia M.},
@@ -86,26 +97,35 @@
 @inproceedings{grubb_looking_2016,
 	title = {Looking into the Crystal Ball: Requirements Evolution over Time},
 	url = {http://www.cs.toronto.edu/~amgrubb/archive/RE16.pdf},
+	abstract = {Goal modeling has long been used in the literature to model and reason about system requirements, constraints within the domain and environment, and stakeholders' goals. Goal model analysis helps stakeholders answer "what if" questions enabling them to make tradeoff decisions about their project requirements. However, questions concerning the evolution over time of stakeholder requirements or changes in actor intentionality are not explicitly addressed by current approaches. In this paper, we tackle this problem by presenting a method for specifying changes in intentions over time, and a technique that uses simulation for asking a variety of "what if" questions about such models. Using the development of a web-based modeling tool as an example, we demonstrate that this technique is effective for debugging goal models and answering stakeholder questions.},
 	pages = {86--95},
 	booktitle = {Proceedings of the {IEEE} 24th International Requirements Engineering Conference {RE}},
 	author = {Grubb, Alicia M. and Chechik, Marsha},
-	date = {2016}
+	date = {2016},
+	annotation = {[Supplementary Information](http://www.cs.toronto.edu/{\textasciitilde}amgrubb/archive/{RE}16-Supplement/)\{:target="\_blank"\}
+[Talk Slides](http://www.cs.toronto.edu/{\textasciitilde}amgrubb/archive/{RE}16-Talk.pdf)\{:target="\_blank"\}}
 }
 
 @inproceedings{grubb_growingleaf_2016,
 	title = {{GrowingLeaf}: Supporting Requirements Evolution over Time},
 	url = {http://www.cs.toronto.edu/~amgrubb/archive/iStar16.pdf},
+	abstract = {Goal modeling and analysis techniques help stakeholders consider possible tradeoff alternatives in their requirements and answer "what if" questions about those alternatives. Software projects today exist in an ephemeral state, and current goal modeling approaches do not answer questions about model evolution and changes in actors' intentionality. We have developed a technique [8] that allows stakeholders to explicate the dynamic nature of their intentional elements, and ask questions about how this dynamicity affects project outcomes. In this paper, we present {GrowingLeaf} , a new web-based goal modeling and analysis tool that implements this technique for {iStar} models. We discuss its support for modeling, simulation, and static analysis and illustrate it for a small example
+of making lunch.},
 	pages = {31--36},
 	booktitle = {Proceedings of the Ninth International i* Workshop {iStar}},
 	author = {Grubb, Alicia M. and Song, Gary and Chechik, Marsha},
-	date = {2016}
+	date = {2016},
+	annotation = {[Talk Slides](http://www.cs.toronto.edu/{\textasciitilde}amgrubb/archive/{iStar}16-Talk.pdf)\{:target="\_blank"\}}
 }
 
 @inproceedings{grubb_modeling_2017,
 	title = {Modeling and Reasoning with Changing Intentions: An Experiment},
 	url = {http://www.cs.toronto.edu/~amgrubb/archive/RE17.pdf},
+	abstract = {Existing modeling approaches in requirements engineering assume that stakeholder goals are static: once set, they remain the same throughout the lifecycle of the project. Of course, such goals, like anything else, may change over time. In earlier work, we introduced Evolving Intentions: an approach that allows stakeholders to specify how evaluations of goal model elements change over time. Simulation over Evolving Intentions enables stakeholders to ask a variety of "what if" questions, and evaluate possible evolutions of a goal model. {GrowingLeaf} is a web-based tool that implements both the modeling and analysis components of this approach. In this paper, we investigate the effectiveness and usability of Evolving Intentions, Simulation over Evolving Intentions, and {GrowingLeaf}. We report on a betweensubjects experiment we conducted with fifteen graduate students familiar with requirements engineering. Using qualitative, quantitative, and timing data, we show that Evolving Intentions were intuitive, that Simulation over Evolving Intentions increased the subjects' understanding and produced meaningful results, and that {GrowingLeaf} was found to be effective and usable.},
 	pages = {164--173},
 	booktitle = {Proceedings of the {IEEE} 25th International Requirements Engineering Conference {RE}},
 	author = {Grubb, Alicia M. and Chechik, Marsha},
-	date = {2017}
+	date = {2017},
+	annotation = {[Supplementary Information](http://www.cs.toronto.edu/{\textasciitilde}amgrubb/archive/{RE}17-Supplement/)\{:target="\_blank"\}
+[Talk Slides](http://www.cs.toronto.edu/{\textasciitilde}amgrubb/archive/{RE}17-Talk.pdf)\{:target="\_blank"\}}
 }
