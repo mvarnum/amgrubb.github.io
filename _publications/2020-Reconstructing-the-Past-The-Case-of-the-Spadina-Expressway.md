@@ -2,7 +2,7 @@
 title: "Reconstructing the Past- The Case of the Spadina Expressway"
 collection: publications
 permalink: /publication/2020-Reconstructing-the-Past-The-Case-of-the-Spadina-Expressway
-excerpt: This is the very best paper
+excerpt: Alicia Grubb, Marsha Chechik
 date: 2020-01-01
 venue: 'Requirements Engineering REJ'
 citation: ' Alicia Grubb,  Marsha Chechik, "Reconstructing the Past- The Case of the Spadina Expressway." Requirements Engineering REJ, 2020.'

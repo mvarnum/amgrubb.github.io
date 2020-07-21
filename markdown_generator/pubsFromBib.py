@@ -117,6 +117,11 @@ for pubsource in publist:
             #add venue logic depending on citation type
             venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","").replace(":","-")
 
+            author_list = ""
+            for author in bibdata.entries[bib_id].persons["author"]:
+                author_list = author_list + author.first_names[0]+" "+author.last_names[0]+", "
+            author_list = author_list[:-2]
+            
             citation = citation + " " + venue
             citation = citation + ", " + pub_year + "."
 
@@ -128,7 +133,7 @@ for pubsource in publist:
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
 
-            md += """\nexcerpt: """ + "This is the very best paper"
+            md += """\nexcerpt: """ + author_list
             
             annotation = False
             if "annotation" in b.keys():

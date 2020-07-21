@@ -2,7 +2,7 @@
 title: "Evolving Intentions- Support for Modeling and Reasoning about Requirements that Change over Time"
 collection: publications
 permalink: /publication/2019-Evolving-Intentions-Support-for-Modeling-and-Reasoning-about-Requirements-that-Change-over-Time
-excerpt: This is the very best paper
+excerpt: Alicia Grubb
 date: 2019-01-01
 venue: 'phdthesis'
 citation: ' Alicia Grubb, "Evolving Intentions- Support for Modeling and Reasoning about Requirements that Change over Time." phdthesis, 2019.'
