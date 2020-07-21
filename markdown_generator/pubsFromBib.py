@@ -29,7 +29,7 @@ publist = {
     "proceeding": {
         "file" : "pubs.bib",
         "venuekey": "booktitle",
-        "venue-pretext": "In the ",
+        "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
@@ -57,7 +57,6 @@ def html_escape(text):
 for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
-    #print("bibdata.entries: "+ str(bibdata.entries))
     
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
@@ -67,7 +66,7 @@ for pubsource in publist:
         pub_day = "01"
         
         b = bibdata.entries[bib_id].fields
-        #print("feilds: " + str(b))
+
         try:
             pub_year = f'{b["date"]}'
 
@@ -93,15 +92,14 @@ for pubsource in publist:
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-").replace(":","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-").replace(":","-")
+            md_filename = (str(pub_year) + "-" + url_slug + ".md").replace("--","-").replace(":","-")
+            html_filename = (str(pub_year) + "-" + url_slug).replace("--","-").replace(":","-")
 
             #Build Citation from text
             citation = ""
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                #print("author: " + str(author))
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
@@ -136,6 +134,9 @@ for pubsource in publist:
                 if len(str(b["url"])) > 5:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
+            abstract = False
+            if "abstract" in b.keys():
+                abstract = True
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
@@ -150,7 +151,10 @@ for pubsource in publist:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
 ##            else:
 ##                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
+            if abstract:
+               md+= "\n"+ b["abstract"]+"\n"
 
+                                
             md_filename = os.path.basename(md_filename)
 
             with open("../_publications/" + md_filename, 'w') as f:

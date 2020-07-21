@@ -1,8 +1,0 @@
----
-title: "Modeling and Reasoning with Changing Intentions- An Experiment"
-collection: publications
-permalink: /publication/2017-01-01-Modeling-and-Reasoning-with-Changing-Intentions-An-Experiment
-date: 2017-01-01
-venue: 'In the Proceedings of the IEEE 25th International Requirements Engineering Conference RE'
-citation: ' Alicia Grubb,  Marsha Chechik, &quot;Modeling and Reasoning with Changing Intentions- An Experiment.&quot; In the Proceedings of the IEEE 25th International Requirements Engineering Conference RE, 2017.'
----
