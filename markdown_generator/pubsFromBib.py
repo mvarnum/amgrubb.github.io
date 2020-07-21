@@ -43,15 +43,15 @@ publist = {
     } 
 }
 
-html_escape_table = {
-    "&": "&amp;",
-    '"': "&quot;",
-    "'": "&apos;"
-    }
-
-def html_escape(text):
-    """Produce entities within text."""
-    return "".join(html_escape_table.get(c,c) for c in text)
+##html_escape_table = {
+##    "&": "&amp;",
+##    '"': "&quot;",
+##    "'": "&apos;"
+##    }
+##
+##def html_escape(text):
+##    """Produce entities within text."""
+##    return "".join(html_escape_table.get(c,c) for c in text)
 
 
 for pubsource in publist:
@@ -103,17 +103,17 @@ for pubsource in publist:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
-            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")).replace(":","-") + ".\""
+            citation = citation + "\"" + b["title"].replace("{", "").replace("}","").replace("\\","").replace(":","-") + ".\""
 
             #add venue logic depending on citation type
             venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","").replace(":","-")
 
-            citation = citation + " " + html_escape(venue)
+            citation = citation + " " + venue
             citation = citation + ", " + pub_year + "."
 
             
             ## YAML variables
-            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")).replace(":","-") + '"\n'
+            md = "---\ntitle: \""   + b["title"].replace("{", "").replace("}","").replace("\\","").replace(":","-") + '"\n'
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
@@ -122,12 +122,12 @@ for pubsource in publist:
             annotation = False
             if "annotation" in b.keys():
                 if len(str(b["annotation"])) > 5:
-                    md += "\nexcerpt: '" + html_escape(b["annotation"]) + "'"
+                    md += "\nexcerpt: '" + b["annotation"] + "'"
                     annotation = True
 
             md += "\ndate: " + str(pub_date) 
 
-            md += "\nvenue: '" + html_escape(venue) + "'"
+            md += "\nvenue: '" + venue + "'"
             
             url = False
             if "url" in b.keys():
@@ -139,14 +139,14 @@ for pubsource in publist:
             if "abstract" in b.keys():
                 abstract = True
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
+            md += "\ncitation: '" + citation + "'"
 
             md += "\n---"
 
             
             ## Markdown description for individual page
             if annotation:
-                md += "\n" + html_escape(b["annotation"]) + "{:target=\"_blank\"}\n"
+                md += "\n" + b["annotation"] + "{:target=\"_blank\"}\n"
 
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
