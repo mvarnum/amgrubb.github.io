@@ -7,11 +7,11 @@ author_profile: false
 
 {% include base_path %}
 
+**Page under construction! 7/21/2020**
 
 The Grubb lab is a software engineering lab in the [Computer Science](http://cs.smith.edu/) department of [Smith College](www.smith.edu). Our work focuses on goal modeling, and how users can effectively use models in collaboration. Goal modeling is a system of nodes and links that can be used to make decisions in early phase software engineering as well as in other contexts, as seen below. Our work is done in BloomingLeaf, a web tool developed by the lab. 
 
 ## Lab Members
-[**Alicia Grubb**](amgrubb.githib.io)
 
 **Megan Varnum** 2023 she/her
 
@@ -26,15 +26,6 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 ## How to Join
 
 If you are interested in joining the Grubb Lab, you should reach out to Alicia Grubb to learn if there are any openings. You can find their website with up to date office hours [here](amgrubb.github.io).
-
-## Publications
-
-Publications such as Lucy's Paper and Kate and Megan's Paper will go here.
-
-## BloomingLeaf
-
-[BloomingLeaf Code Repository](https://github.com/amgrubb/BloomingLeaf)
-
 
 ## Lab Alumni 
 

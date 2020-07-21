@@ -1,10 +1,11 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
+<!--{% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
-{% endif %}
+{% endif %}-->
+{% assign teaser = site.teaser %}
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
