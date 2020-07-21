@@ -28,19 +28,19 @@ import re
 publist = {
     "proceeding": {
         "file" : "pubs.bib",
-        "venuekey": "date",
-        "venue-pretext": "In the proceedings of ",
+        "venuekey": "booktitle",
+        "venue-pretext": "In the ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
     },
-##    "journal":{
-##        "file": "pubs.bib",
-##        "venuekey" : "journal",
-##        "venue-pretext" : "",
-##        "collection" : {"name":"publications",
-##                        "permalink":"/publication/"}
-##    } 
+    "journal":{
+        "file": "journal.bib",
+        "venuekey" : "journaltitle",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+    } 
 }
 
 html_escape_table = {
@@ -148,14 +148,15 @@ for pubsource in publist:
 
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
+##            else:
+##                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
 
             with open("../_publications/" + md_filename, 'w') as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"") 
+
         # field may not exist for a reference
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
