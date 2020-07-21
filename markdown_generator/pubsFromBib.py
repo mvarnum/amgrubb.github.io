@@ -128,7 +128,7 @@ for pubsource in publist:
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
 
-            md += """\nexcerpt: """ + ""
+            md += """\nexcerpt: """ + "This is the very best paper"
             
             annotation = False
             if "annotation" in b.keys():
