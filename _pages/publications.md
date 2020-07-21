@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+**Page under construction! 7/21/2020**
 
 You can also find my publications on [DBLP](https://dblp.org/pers/hd/g/Grubb:Alicia_M=).
 
@@ -19,4 +20,3 @@ You can also find my publications on [DBLP](https://dblp.org/pers/hd/g/Grubb:Ali
   {% include archive-single.html %}
 {% endfor %}
 
-**Page under construction!**
