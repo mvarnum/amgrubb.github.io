@@ -148,7 +148,7 @@ for pubsource in publist:
             
             ## Markdown description for individual page
             if annotation:
-                md += "\n" + b["annotation"].replace("{\\textasciitilde}","~") + "\n"
+                md += "\n" + b["annotation"].replace("{\\textasciitilde}","~").replace("\\","") + "\n"
 
             if url:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
