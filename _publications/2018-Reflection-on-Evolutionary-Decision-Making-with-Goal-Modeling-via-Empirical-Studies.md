@@ -2,7 +2,7 @@
 title: "Reflection on Evolutionary Decision Making with Goal Modeling via Empirical Studies"
 collection: publications
 permalink: /publication/2018-Reflection-on-Evolutionary-Decision-Making-with-Goal-Modeling-via-Empirical-Studies
-excerpt: 
+excerpt: This is the very best paper
 date: 2018-01-01
 venue: 'Proceedings of the IEEE 26th International Requirements Engineering Conference RE'
 citation: ' Alicia Grubb, "Reflection on Evolutionary Decision Making with Goal Modeling via Empirical Studies." Proceedings of the IEEE 26th International Requirements Engineering Conference RE, 2018.'
