@@ -42,14 +42,14 @@ publist = {
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
     }
-##    ,
-##        "book":{
-##        "file": "book.bib",
-##        "venuekey" : "booktitle",
-##        "venue-pretext" : "",
-##        "collection" : {"name":"publications",
-##                        "permalink":"/publication/"}
-##    }
+    ,
+        "book":{
+        "file": "book.bib",
+        "venuekey" : "type",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+    }
 }
 
 ##html_escape_table = {
