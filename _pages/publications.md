@@ -7,8 +7,13 @@ author_profile: true
 **Page under construction! 7/21/2020**
 
 You can also find my publications on [DBLP](https://dblp.org/pers/hd/g/Grubb:Alicia_M=).
+
+
 † denotes undergraduate at the University of Toronto
+
 \* denotes undergraduate at Smith College
+
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
