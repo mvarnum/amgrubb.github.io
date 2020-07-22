@@ -86,7 +86,7 @@ author:
   location         : "Northampton, MA, USA"
   employer         : "Smith College"
   pubmed           : 
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=br2VoDkAAAAJ&hl=en&authuser=1"
   email            : "amgrubb@smith.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
