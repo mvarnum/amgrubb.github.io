@@ -8,7 +8,6 @@ author_profile: true
 
 You can also find my publications on [DBLP](https://dblp.org/pers/hd/g/Grubb:Alicia_M=).
 
-
 † denotes undergraduate at the University of Toronto
 
 \* denotes undergraduate at Smith College
