@@ -17,7 +17,7 @@ The Grubb lab is a software engineering lab in the [Computer Science](http://cs.
 <img src="/images/megan.JPG"
      alt="Megan HeadShot"
      style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
-**Megan Varnum** 2023 she/her
+**Megan Varnum** '23 she/her
 
 Megan is from Eastern Washington and joined the lab as a STRIDE student in September 2019. She is pursuing a double major in engineering and computer science. Outside of academics, Megan competes on the varsity Smith College track and cross country team.
 
@@ -26,12 +26,12 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 <img src="/images/kate.JPG"
      alt="Kate Headshot"
      style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
-**Kate Spencer** 2022 she/her
+**Kate Spencer** '22 she/her
 
   Kate is an engineering major and computer science minor from Seattle, WA. She joined the lab in January 2020. Outside of lab she enjoys being house president of Parsons House and singing in the Glee Club. 
 
 
-**Lauren Forando** 2021
+**Lauren Forando** '21
 
 
 ## How to Join
@@ -42,13 +42,13 @@ Interested? Contact [Alicia](amgrubb@smith.edu). Not sure what to say? Review th
 
 ## Lab Alumni 
 
-Yilin Lucy Wang 2020
+Yilin Lucy Wang '20
 
 
-Lily Diao 2022
+Lily Diao '22
 
 
-Naomi Cebula 2022
+Naomi Cebula '22
 
 
-Omema Ibrahim 
+Omema Ibrahim '22
