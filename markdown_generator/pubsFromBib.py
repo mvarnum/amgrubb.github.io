@@ -121,10 +121,10 @@ for pubsource in publist:
                 citation = citation+" "+str_author[str_author.find(",")+2:]+" "+author.last_names[0]+", "
 
             #citation title
-            citation = citation + "\"" + b["title"].replace("{", "").replace("}","").replace("\\","").replace(":","-") + ".\""
+            citation = citation + "\"" + b["title"].replace("{", "").replace("}","").replace("\\","") + ".\""
 
             #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","").replace(":","-")
+            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
 
             #build list of authors for preview
             author_list = ""
@@ -141,7 +141,7 @@ for pubsource in publist:
 
             
             ## YAML variables
-            md = "---\ntitle: \""   + b["title"].replace("{", "").replace("}","").replace("\\","").replace(":","-") + '"\n'
+            md = "---\ntitle: \""   + b["title"].replace("{", "").replace("}","").replace("\\","") + '"\n'
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 

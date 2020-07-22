@@ -1,11 +1,11 @@
 ---
-title: "Adding Temporal Intention Dynamics to Goal Modeling- A Position Paper"
+title: "Adding Temporal Intention Dynamics to Goal Modeling: A Position Paper"
 collection: publications
 permalink: /publication/2015-Adding-Temporal-Intention-Dynamics-to-Goal-Modeling-A-Position-Paper
 excerpt: Alicia M. Grubb
 date: 2015-01-01
 venue: 'Proceedings of the Seventh International Workshop on Modeling in Software Engineering MiSE'
-citation: ' Alicia M. Grubb, "Adding Temporal Intention Dynamics to Goal Modeling- A Position Paper." Proceedings of the Seventh International Workshop on Modeling in Software Engineering MiSE, 2015.'
+citation: ' Alicia M. Grubb, "Adding Temporal Intention Dynamics to Goal Modeling: A Position Paper." Proceedings of the Seventh International Workshop on Modeling in Software Engineering MiSE, 2015.'
 ---
 [Author PrePrint](http://www.cs.toronto.edu/~amgrubb/archive/MiSE-2015.pdf)
 

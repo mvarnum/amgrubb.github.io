@@ -1,11 +1,11 @@
 ---
-title: "Evolving Intentions- Support for Modeling and Reasoning about Requirements that Change over Time"
+title: "Evolving Intentions: Support for Modeling and Reasoning about Requirements that Change over Time"
 collection: publications
 permalink: /publication/2019-Evolving-Intentions-Support-for-Modeling-and-Reasoning-about-Requirements-that-Change-over-Time
 excerpt: Alicia M. Grubb
 date: 2019-01-01
 venue: 'University of Toronto'
-citation: ' Alicia M. Grubb, "Evolving Intentions- Support for Modeling and Reasoning about Requirements that Change over Time." University of Toronto, 2019.'
+citation: ' Alicia M. Grubb, "Evolving Intentions: Support for Modeling and Reasoning about Requirements that Change over Time." University of Toronto, 2019.'
 ---
 [Project Page](http://www.cs.toronto.edu/~amgrubb/thesis/)
 
