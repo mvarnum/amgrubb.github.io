@@ -25,7 +25,9 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 
 ## How to Join
 
-If you are interested in joining the Grubb Lab, you should reach out to Alicia Grubb to learn if there are any openings. You can find their website with up to date office hours [here](amgrubb.github.io).
+We are seeking new lab members interested in both software development and requirements research. There are different ways to conduct research in the Grubb Lab (e.g., volunteer, special studies, SURF, STRIDE, or a Senior Honors Thesis project).
+Those interested in development or software engineering research should have completed or be currently enrolled in CSC212. Ideally, students interested in pursuing a Senior Honors Thesis should contact Alicia in their junior year.
+Interested? Contact [Alicia](amgrubb@smith.edu). Not sure what to say? Review the “Recommendations for Emailing Professors” [on the Research at Smith page](https://www.smith.edu/academics/research-at-smith). Want to know what it’s like? Reach out to one of our current or past members.
 
 ## Lab Alumni 
 
