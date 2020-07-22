@@ -13,27 +13,27 @@ The Grubb lab is a software engineering lab in the [Computer Science](http://cs.
 
 ## Lab Members
 
-<div class = lab-member markdown="1">
+
 <img src="/images/megan.JPG"
      alt="Megan HeadShot"
-     style="float: left; height: 300px;" />
+     style="float: left; margin-right:100%; height: 300px;" />
 **Megan Varnum** 2023 she/her
 
 Megan is from Eastern Washington and joined the lab as a STRIDE student in September 2019. She is pursuing a double major in engineering and computer science. Outside of academics, Megan competes on the varsity Smith College track and cross country team.
-</div>
 
-<div class = lab-member markdown="1">
+
+
 <img src="/images/kate.png"
      alt="Kate Headshot"
-     style="float: left; height: 300px;" />
+     style="float: left; margin-right:100%; height: 300px;" />
 **Kate Spencer** 2022 she/her
 
   Kate is an engineering major and computer science minor from Seattle, WA. She joined the lab in January 2020. Outside of lab she enjoys being house president of Parsons House and singing in the Glee Club. 
-</div>
 
-<div class = lab-member markdown="1">
+
 **Lauren Forando** 2021
-</div>
+
+
 ## How to Join
 
 We are seeking new lab members interested in both software development and requirements research. There are different ways to conduct research in the Grubb Lab (e.g., volunteer, special studies, SURF, STRIDE, or a Senior Honors Thesis project).
