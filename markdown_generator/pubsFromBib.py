@@ -117,11 +117,14 @@ for pubsource in publist:
             #add venue logic depending on citation type
             venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","").replace(":","-")
 
+            #build list of authors for preview
             author_list = ""
             for author in bibdata.entries[bib_id].persons["author"]:
                 author_list = author_list + author.first_names[0]+" "+author.last_names[0]+", "
             author_list = author_list[:-2]
-            
+            author_list = author_list.replace("*","\*")
+           
+
             citation = citation + " " + venue
             citation = citation + ", " + pub_year + "."
 
