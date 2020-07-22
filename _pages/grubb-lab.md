@@ -13,15 +13,17 @@ The Grubb lab is a software engineering lab in the [Computer Science](http://cs.
 
 ## Lab Members
 
+![megan](/images/megan.jpg)
 **Megan Varnum** 2023 she/her
 
 Megan is from Eastern Washington and joined the lab as a STRIDE student in September 2019. She is pursuing a double major in engineering and computer science. Outside of academics, Megan competes on the varsity Smith College track and cross country team.
 
+![megan](/images/kate.png)
 **Kate Spencer** 2022 she/her
 
   Kate is an engineering major and computer science minor from Seattle, WA. She joined the lab in January 2020. Outside of lab she enjoys being house president of Parsons House and singing in the Glee Club. 
 
-**Lauren Forando**2021
+**Lauren Forando** 2021
 
 ## How to Join
 
@@ -38,3 +40,6 @@ Lily Diao 2022
 
 
 Naomi Cebula 2022
+
+
+Omema Ibrahim 
