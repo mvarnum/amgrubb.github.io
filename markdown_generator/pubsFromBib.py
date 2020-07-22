@@ -178,8 +178,8 @@ for pubsource in publist:
             if annotation:
                 md += "\n" + b["annotation"].replace("{\\textasciitilde}","~").replace("\\","").replace("{", "").replace("}","") + "\n"
 
-            if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+##            if url:
+##                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
 ##            else:
 ##                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
             if abstract:
