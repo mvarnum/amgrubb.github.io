@@ -185,6 +185,9 @@ for pubsource in publist:
             if abstract:
                md+= "\n"+ "Abstract: "+ b["abstract"].replace("\\textbackslash","\\").replace("{", "").replace("}","")+"\n"
 
+##            for author in bibdata.entries[bib_id].persons["author"]:
+##                str_author = str(author)
+##                md+= str_author
                                 
             md_filename = os.path.basename(md_filename)
 
