@@ -45,7 +45,7 @@ publist = {
     ,
         "book":{
         "file": "book.bib",
-        "venuekey" : "type",
+        "venuekey" : "institution",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
@@ -108,8 +108,17 @@ for pubsource in publist:
             citation = ""
 
             #citation authors - todo - add highlighting for primary author?
+
+            #print(str(bibdata.entries[bib_id].persons["author"]))
+
+            str_author =""
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                str_author = str(author)
+##                print("name: "+str(author))
+##                print("first: "+str(author.first_names[0]))
+##                print("new first: "+str_author[str_author.find(",")+2:])
+##                print("last: "+str(author.last_names[0]))
+                citation = citation+" "+str_author[str_author.find(",")+2:]+" "+author.last_names[0]+", "
 
             #citation title
             citation = citation + "\"" + b["title"].replace("{", "").replace("}","").replace("\\","").replace(":","-") + ".\""
@@ -120,7 +129,9 @@ for pubsource in publist:
             #build list of authors for preview
             author_list = ""
             for author in bibdata.entries[bib_id].persons["author"]:
-                author_list = author_list + author.first_names[0]+" "+author.last_names[0]+", "
+                str_author = str(author)
+                author_list = author_list + str_author[str_author.find(",")+2:]+" "+author.last_names[0]+", "
+
             author_list = author_list[:-2]
             author_list = author_list.replace("*","\*")
            
