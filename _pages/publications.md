@@ -9,8 +9,8 @@ author_profile: true
 See full list on [DBLP](https://dblp.org/pers/hd/g/Grubb:Alicia_M=) or [Google Scholar](https://scholar.google.com/citations?user=br2VoDkAAAAJ&hl=en&authuser=1).
 
 
-\* denotes undergraduate at Smith College  
-† denotes undergraduate at the University of Toronto
+\* denotes authors who conducted research as undergraduate while at Smith College.  
+† denotes authors who conducted research as undergraduate while at the University of Toronto.
 
 
 {% if author.googlescholar %}
