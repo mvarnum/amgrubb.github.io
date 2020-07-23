@@ -23,7 +23,7 @@ Alicia is from Canada and loves maple syrup and gooses (and duckies). When they 
 
 <img src="/images/megan.JPG"
      alt="Megan HeadShot"
-     style=" margin-bottom: 25px; height: 300px;" />
+     style="float: right; margin-bottom: 25px; height: 300px;" />
 **Megan Varnum** '23 she/her (STRIDE 2019-2021, SURF 2020)
 Megan is from Eastern Washington and joined the lab as a STRIDE student in September 2019. She is pursuing a double major in engineering and computer science. Outside of academics, Megan competes on the varsity Smith College track and cross country team.
 
@@ -31,7 +31,7 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 
 <img src="/images/kate.jpg"
      alt="Kate Headshot"
-     style="margin-bottom: 25px; height: 300px;" />
+     style="float: right;margin-bottom: 25px; height: 300px;" />
 **Kate Spencer** '22 she/her (Volunteer 2020, SURF 2020)
   Kate is an engineering major and computer science minor from Seattle, WA. She joined the lab in January 2020. Outside of lab she enjoys being house president of Parsons House and singing in the Glee Club. 
 
