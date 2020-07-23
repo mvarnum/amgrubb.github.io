@@ -15,7 +15,9 @@
 # TODO: Make this work with other databases of citations, 
 # TODO: Merge this with the existing TSV parsing solution
 
-##GRUBB LAB: journal.bib has any journal papers, pubs.bib is the rest. Make sure both are exported as BibLatex
+##GRUBB LAB: journal.bib has any journal papers, book.bib has theses, pubs.bib is the rest. Make sure all are exported as BibLatex with notes
+##Additionally, the daggers won't be written in to the markdown files, so will need to be replaced before pushing as they will break the site if not.
+##Also I am not sure if the jupyter notebook updates when updates are made here, so use at own risk
 
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
@@ -52,6 +54,7 @@ publist = {
     }
 }
 
+##commented out because it wasnt rendering properly
 ##html_escape_table = {
 ##    "&": "&amp;",
 ##    '"': "&quot;",
@@ -101,23 +104,18 @@ for pubsource in publist:
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
 
+            #changed to use only pub year, as most publications don't have a date
             md_filename = (str(pub_year) + "-" + url_slug + ".md").replace("--","-").replace(":","-")
             html_filename = (str(pub_year) + "-" + url_slug).replace("--","-").replace(":","-")
 
             #Build Citation from text
             citation = ""
 
-            #citation authors - todo - add highlighting for primary author?
-
-            #print(str(bibdata.entries[bib_id].persons["author"]))
 
             str_author =""
             for author in bibdata.entries[bib_id].persons["author"]:
                 str_author = str(author)
-##                print("name: "+str(author))
-##                print("first: "+str(author.first_names[0]))
-##                print("new first: "+str_author[str_author.find(",")+2:])
-##                print("last: "+str(author.last_names[0]))
+                #cant use author.first_name[0] as it only takes the first word and not any second name/ middle initals
                 citation = citation+" "+str_author[str_author.find(",")+2:]+" "+author.last_names[0]+", "
 
             #citation title
@@ -132,7 +130,10 @@ for pubsource in publist:
                 str_author = str(author)
                 author_list = author_list + str_author[str_author.find(",")+2:]+" "+author.last_names[0]+", "
 
+            #removed last space and comma
             author_list = author_list[:-2]
+            
+            #adds escape key for markdown
             author_list = author_list.replace("*","\*")
            
 
@@ -148,20 +149,28 @@ for pubsource in publist:
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
 
             md += """\nexcerpt: """ + author_list
-            
-            annotation = False
-            if "annotation" in b.keys():
-                if len(str(b["annotation"])) > 5:
-                    #md += "\nexcerpt: '" + b["annotation"] + "'"
-                    annotation = True
 
             md += "\ndate: " + str(pub_date) 
 
             md += "\nvenue: '" + venue + "'"
             
+            md += "\ncitation: '" + citation + "'"
+
+            md += "\n---"
+
+
+            #logic for if there is a note, url, or abstract
+            annotation = False
+            if "annotation" in b.keys():
+                if len(str(b["annotation"])) > 5:
+                    #removed below line so that the annotation wouldn't appear on the main publications page
+                    #md += "\nexcerpt: '" + b["annotation"] + "'"
+                    annotation = True
+            
             url = False
             if "url" in b.keys():
                 if len(str(b["url"])) > 5:
+                    #removed below line so that the url wouldn't appear on the main publications page
                     #md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
@@ -169,16 +178,15 @@ for pubsource in publist:
             if "abstract" in b.keys():
                 abstract = True
 
-            md += "\ncitation: '" + citation + "'"
 
-            md += "\n---"
 
             
             ## Markdown description for individual page
             if annotation:
                 md += "\n" + b["annotation"].replace("{\\textasciitilde}","~").replace("\\","").replace("{", "").replace("}","") + "\n"
 
-##            if url:
+##          removed google scholar and paper links. Links are now in the annotation and combined with talk slides and supplementary information
+                if url:
 ##                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
 ##            else:
 ##                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"
