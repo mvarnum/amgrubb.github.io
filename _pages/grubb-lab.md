@@ -15,14 +15,14 @@ The Grubb lab is the software engineering lab in the Department of [Computer Sci
 
 <img src="/images/paddling.jpg"
      alt="Alicia Paddling on Paradise Pond"
-     style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
+     style=" margin-right:100%; margin-bottom: 25px; height: 300px;" />
 **Dr. Alicia M. Grubb** they/them (Principal Investigator 2019-Present)
 
 Alicia is from Canada and loves maple syrup and gooses (and duckies). When they are not in the lab, they can be found riding bikes or paddling a kayak on Smith College's Paradise Pond.
 
 <img src="/images/megan.JPG"
      alt="Megan HeadShot"
-     style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
+     style=" margin-right:100%; margin-bottom: 25px; height: 300px;" />
 **Megan Varnum** '23 she/her (STRIDE 2019-2021, SURF 2020)
 
 Megan is from Eastern Washington and joined the lab as a STRIDE student in September 2019. She is pursuing a double major in engineering and computer science. Outside of academics, Megan competes on the varsity Smith College track and cross country team.
@@ -31,7 +31,7 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 
 <img src="/images/kate.jpg"
      alt="Kate Headshot"
-     style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
+     style=" margin-right:100%; margin-bottom: 25px; height: 300px;" />
 **Kate Spencer** '22 she/her (Volunteer 2020, SURF 2020)
 
   Kate is an engineering major and computer science minor from Seattle, WA. She joined the lab in January 2020. Outside of lab she enjoys being house president of Parsons House and singing in the Glee Club. 
@@ -51,4 +51,8 @@ Interested? Contact [Alicia](amgrubb@smith.edu). Not sure what to say? Review th
 Lily Diao '22 (SURF 2019, Special Studies Fall 2019)  
 Naomi Cebula '22 (SURF 2019, Special Studies Fall 2019)  
 Omema Ibrahim '22 (SURF 2019)  
-Yilin Lucy Wang '20 (SURF 2019, Senior Honors Thesis 2019-20)     
+Yilin Lucy Wang '20 (SURF 2019, Senior Honors Thesis 2019-20)
+
+<img src="/images/ps.jpg"
+     alt="Positive Space, Lesbian, Gay, Bisexual, Transgender, Queer, Rainbow triangle"
+     style=" height: 300px;" />
