@@ -13,6 +13,12 @@ The Grubb lab is a software engineering lab in the [Computer Science](http://cs.
 
 ## Lab Members
 
+<img src="/images/paddling.JPG"
+     alt="Alicia Paddling on Paradise Pond"
+     style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
+**Dr. Alicia M. Grubb** they/them (PI 2019-Present)
+
+Alicia is from Canada and loves maple syrup and gooses (and duckies). When they are not in the lab, they can be found riding bikes or paddling a kayak on Smith College's Paradise Pond.
 
 <img src="/images/megan.JPG"
      alt="Megan HeadShot"
