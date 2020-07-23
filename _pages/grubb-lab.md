@@ -16,7 +16,7 @@ The Grubb lab is the software engineering lab in the Department of [Computer Sci
 <div style = "height: 400px; margin: 25px; " markdown = "1">
 <img src="/images/paddling.jpg"
      alt="Alicia Paddling on Paradise Pond"
-     style=" float: right; height: 300px;" /> 
+     style=" float: right; height: 300px; padding-left: 30px;" /> 
 
    
 **Dr. Alicia M. Grubb** they/them (Principal Investigator 2019-Present)
