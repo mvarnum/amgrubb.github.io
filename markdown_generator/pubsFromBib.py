@@ -186,7 +186,7 @@ for pubsource in publist:
                 md += "\n" + b["annotation"].replace("{\\textasciitilde}","~").replace("\\","").replace("{", "").replace("}","") + "\n"
 
 ##          removed google scholar and paper links. Links are now in the annotation and combined with talk slides and supplementary information
-                if url:
+##            if url:
 ##                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
 ##            else:
 ##                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+")).replace(":","+")+"){:target=\"_blank\"} for full citation"

@@ -57,4 +57,4 @@ Yilin Lucy Wang '20 (SURF 2019, Senior Honors Thesis 2019-20)
 
 <img src="/images/ps.jpg"
      alt="Positive Space, Lesbian, Gay, Bisexual, Transgender, Queer, Rainbow triangle"
-     style=" height: 200px;" />
+     style="float: right; height: 100px;" />
