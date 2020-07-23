@@ -13,7 +13,7 @@ The Grubb lab is the software engineering lab in the Department of [Computer Sci
 ## Lab Members
 
 
-<div style = "height: 400px" markdown = "1">
+<div style = "height: 400px; margin: 25px;" markdown = "1">
 <img src="/images/paddling.jpg"
      alt="Alicia Paddling on Paradise Pond"
      style=" float: right; margin-bottom: 25px; height: 300px; border-top:50px; border-bottom: 50px" /> 
@@ -23,24 +23,25 @@ The Grubb lab is the software engineering lab in the Department of [Computer Sci
 Alicia is from Canada and loves maple syrup and gooses (and duckies). When they are not in the lab, they can be found riding bikes or paddling a kayak on Smith College's Paradise Pond.
 </div>
 
-
+<div style = "height: 400px; margin: 25px;" markdown = "1">
 <img src="/images/megan.JPG"
      alt="Megan HeadShot"
      style="float: right; margin-bottom: 25px; height: 300px; border-top:50px; border-bottom: 50px" />
 **Megan Varnum** '23 she/her (STRIDE 2019-2021, SURF 2020)
 Megan is from Eastern Washington and joined the lab as a STRIDE student in September 2019. She is pursuing a double major in engineering and computer science. Outside of academics, Megan competes on the varsity Smith College track and cross country team.
+</div>
 
-
-
+<div style = "height: 400px; margin: 25px;" markdown = "1">
 <img src="/images/kate.jpg"
      alt="Kate Headshot"
      style="float: right;margin-bottom: 25px; height: 300px;  border-top:50px; border-bottom: 50px" />
 **Kate Spencer** '22 she/her (Volunteer 2020, SURF 2020)
   Kate is an engineering major and computer science minor from Seattle, WA. She joined the lab in January 2020. Outside of lab she enjoys being house president of Parsons House and singing in the Glee Club. 
+</div>
 
-
+<div style = "height: 400px; margin: 25px;" markdown = "1">
 **Lauren Forando** '21 (Work Study 2019)
-
+</div>
 
 ## How to Join
 
