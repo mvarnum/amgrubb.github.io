@@ -13,10 +13,10 @@ The Grubb lab is a software engineering lab in the [Computer Science](http://cs.
 
 ## Lab Members
 
-<img src="/images/paddling.JPG"
+<img src="/images/paddling.jpg"
      alt="Alicia Paddling on Paradise Pond"
      style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
-**Dr. Alicia M. Grubb** they/them (PI 2019-Present)
+**Dr. Alicia M. Grubb** they/them (Principal Investigator 2019-Present)
 
 Alicia is from Canada and loves maple syrup and gooses (and duckies). When they are not in the lab, they can be found riding bikes or paddling a kayak on Smith College's Paradise Pond.
 
@@ -29,7 +29,7 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 
 
 
-<img src="/images/kate.JPG"
+<img src="/images/kate.jpg"
      alt="Kate Headshot"
      style="float: left; margin-right:100%; margin-bottom: 25px; height: 300px;" />
 **Kate Spencer** '22 she/her (Volunteer 2020, SURF 2020)
