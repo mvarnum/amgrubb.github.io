@@ -13,7 +13,7 @@ The Grubb lab is the software engineering lab in the Department of [Computer Sci
 ## Lab Members
 
 
-<div style ="width = 50%" markdown = "1">
+<div markdown = "1">
 <img src="/images/paddling.jpg"
      alt="Alicia Paddling on Paradise Pond"
      style=" float: right; margin-bottom: 25px; height: 300px; border-top:50px; border-bottom: 50px" /> 
