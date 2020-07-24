@@ -8,7 +8,7 @@ author_profile: false
 
 **Page under construction! 7/21/2020**
 
-The Grubb lab is the software engineering lab in the Department of [Computer Science](http://cs.smith.edu/) at [Smith College](www.smith.edu). Our work focuses on goal modeling, and how users can effectively use models in collaboration. Goal modeling is a system of nodes and links that can be used to make decisions in early phase software engineering as well as in other contexts, as seen below. Our work is done in BloomingLeaf, a web tool developed by the lab. 
+The Grubb lab is the software engineering lab in the Department of [Computer Science](http://cs.smith.edu/) at [Smith College](www.smith.edu). Our work focuses on goal modeling, and how users can effectively use models in collaboration. Goal modeling is a system of nodes and links that can be used to make decisions in early phase software engineering as well as in other contexts, as seen below. Our work is done in BloomingLeaf, a web tool developed by the lab. See below to join. 
 
 ## Lab Members
 
@@ -42,18 +42,20 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 **Lauren Forando** '21 (Work Study 2019)
 
 
-## How to Join
-
-We are seeking new lab members interested in both software development and requirements research. There are different ways to conduct research in the Grubb Lab (e.g., volunteer, special studies, SURF, STRIDE, or a Senior Honors Thesis project).
-Those interested in development or software engineering research should have completed or be currently enrolled in CSC212. Ideally, students interested in pursuing a Senior Honors Thesis should contact Alicia in their junior year.
-Interested? Contact [Alicia](amgrubb@smith.edu). Not sure what to say? Review the “Recommendations for Emailing Professors” [on the Research at Smith page](https://www.smith.edu/academics/research-at-smith). Want to know what it’s like? Reach out to one of our current or past members.
-
 ## Lab Alumni 
 
 Lily Diao '22 (SURF 2019, Special Studies Fall 2019)  
 Naomi Cebula '22 (SURF 2019, Special Studies Fall 2019)  
 Omema Ibrahim '22 (SURF 2019)  
 Yilin Lucy Wang '20 (SURF 2019, Senior Honors Thesis 2019-20)
+
+
+## How to Join
+
+We are seeking new lab members interested in both software development and requirements research. There are different ways to conduct research in the Grubb Lab (e.g., volunteer, special studies, SURF, STRIDE, or a Senior Honors Thesis project).
+Those interested in development or software engineering research should have completed or be currently enrolled in CSC212. Ideally, students interested in pursuing a Senior Honors Thesis should contact Alicia in their junior year.
+Interested? Contact [Alicia](amgrubb@smith.edu). Not sure what to say? Review the “Recommendations for Emailing Professors” [on the Research at Smith page](https://www.smith.edu/academics/research-at-smith). Want to know what it’s like? Reach out to one of our current or past members.
+
 
 <img src="/images/ps.jpg"
      alt="Positive Space, Lesbian, Gay, Bisexual, Transgender, Queer, Rainbow triangle"
