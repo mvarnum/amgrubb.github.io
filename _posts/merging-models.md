@@ -1,7 +1,7 @@
 ---
 title: 'Model Merging and Layout'
 date: 2019-09-01
-permalink: /posts/merging-models
+permalink: /posts/2019-09-01-merging-models
 ---
 
 Lucy Wang Senior Thesis
