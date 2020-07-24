@@ -28,3 +28,6 @@ With this timeline, we investigated how the two functions should be merged. We f
 <img src="/images/surf-1.png"
      alt="figure 1 as described above, shows three graphs, the first with a slope increasing from 0, the second constant at a positive value, and the third, both previous graphs combined."
      />
+
+This article is under construction
+---
