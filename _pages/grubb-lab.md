@@ -39,7 +39,10 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
   Kate is an engineering major and computer science minor from Seattle, WA. She joined the lab in January 2020. Outside of lab she enjoys being house president of Parsons House and singing in the Glee Club. 
 </div>
 
+
+
 **Lauren Forando** '21 (Work Study 2019)
+
 
 
 ## Lab Alumni 
@@ -47,8 +50,13 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 Lily Diao '22 (SURF 2019, Special Studies Fall 2019)  
 Naomi Cebula '22 (SURF 2019, Special Studies Fall 2019)  
 Omema Ibrahim '22 (SURF 2019)  
+<div style = "height: 400px; margin: 25px;" markdown = "1">
+<img src="/images/lucy.jpg"
+     alt="Lucy's Headshot"
+     style="float: right; height: 300px; padding-left: 30px;" />
 Yilin Lucy Wang '20 (SURF 2019, Senior Honors Thesis 2019-20)
-
+<!--CMU, Master of Entertainment Technology, F20-->
+</div>
 
 ## How to Join
 
