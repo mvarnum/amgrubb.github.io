@@ -21,6 +21,8 @@ See my [UToronto webpage](http://www.cs.toronto.edu/~amgrubb) for details about 
 ### Teaching 
 
 * CSC 111: [Introduction to Computer Science Through Programming](https://amgrubb.github.io/csc111) - S19, S20
-* CSC 223: Introduction to Software Engineering - F19
+* CSC 223: [Introduction to Software Engineering](files/CSC223F19.pdf) - F19
 * CSC 231: Microprocessors and Assembly Language - F20
-* CSC 325: Seminar: Responsible Computing - F19, F20
+* CSC 325: [Seminar: Responsible Computing](files/CSC325F19.pdf) - F19, F20
+
+Students can provide me with [anonymous course feedback](https://forms.gle/vAFiNqMaovom9Gjf8) or let me know how I can create a more [inclusive learning environment](https://forms.gle/ZT7s6q8mA1Lz3eZV7).
