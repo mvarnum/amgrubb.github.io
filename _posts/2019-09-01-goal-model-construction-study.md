@@ -7,7 +7,7 @@ permalink: /posts/2019-09-01-goal-model-construction-study
 > **_Note:_** This work is published in the Proceedings of the 13th International i* Workshop, the abstract and talk slides can be veiwed [here](https://amgrubb.github.io/publication/2020-A-Preliminary-Investigation-of-the-Utility-of-Goal-Model-Construction).
 
 ## A Preliminary Study of the Utility of Goal Model Construction  
-### 2019 SURF Abstract by Naomi Cebula and Lily Diao
+**2019 SURF Abstract by Naomi Cebula and Lily Diao**
 ---
 
 Goal-oriented requirements engineering (GORE) is a subset of requirements engineering, which focuses on the elicitation and analysis of stakeholders' intentions \[1\]. Grubb proposed several studies aimed at investigating what utility stakeholders derive from constructing and analyzing goal models \[2\]. In this project, we designed and conducted an empirical study that explored the construction stage of goal modeling, asking whether stakeholders benefit from manually drawing their model (on paper or in a tool) for the purpose of understanding and generating project scenarios. Specifically, we compared reviewing auto-generated models with manually created ones for the purpose of helping students answer their own self-directed questions, the results of which have implications for goal model adoption and automation.
