@@ -4,20 +4,7 @@ date: 2019-09-01
 permalink: /posts/2019-09-01-goal-model-construction-study
 ---
 
-**_NOTE:_** This work is published in the Proceedings of the 13th International i* Workshop, the abstract and talk slides can be veiwed [here](https://amgrubb.github.io/publication/2020-A-Preliminary-Investigation-of-the-Utility-of-Goal-Model-Construction).
-
-
-> Test1
-
-`Test2`
-
-```
-Test 3
-```
-
-~~~
-Test4
-~~~
+> **_Note:_** This work is published in the Proceedings of the 13th International i* Workshop, the abstract and talk slides can be veiwed [here](https://amgrubb.github.io/publication/2020-A-Preliminary-Investigation-of-the-Utility-of-Goal-Model-Construction).
 
 A Preliminary Study of the Utility of Goal Model Construction (SURF'19)  
 By Naomi Cebula and Lily Diao
