@@ -1,7 +1,7 @@
 ---
-title: 'Model Merging and Layout'
-date: 2019-09-01
-permalink: /posts/2019-09-01-merging-models
+title: 'Thesis: Model Merging and Layout'
+date: 2020-05-01
+permalink: /posts/2020-05-01-merging-models
 ---
 
 Lucy Wang Senior Thesis
@@ -10,7 +10,7 @@ Lucy Wang Senior Thesis
 For her senior thesis, Lucy expanded upon this work and wrote [Towards a General Solution for Layout of Visual Goal Models with Actors.](https://amgrubb.github.io/publication/2020-Towards-a-General-Solution-for-Layout-of-Visual-Goal-Models-with-Actors)
 
 
-Summary from Summer 2019
+
 ===
 Towards Merging Models over Different Time Intervals
 ---
