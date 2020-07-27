@@ -12,7 +12,7 @@ The Grubb lab is the software engineering lab in the Department of [Computer Sci
 
 <img src="/images/goal-model1.png"
      alt="A goal model showing a student deciding what to have for lunch"
-     style="height: 300px;" /> 
+     style=" margin-left: auto; margin-right: auto;height: 200px;" /> 
 
 ## Lab Members
 
