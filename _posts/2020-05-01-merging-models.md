@@ -4,30 +4,26 @@ date: 2020-05-01
 permalink: /posts/2020-05-01-merging-models
 ---
 
-Lucy Wang Senior Thesis
-===
+**Automatically Merging Evolving Goal Models**  
+**_Senior Honors Thesis by Yilin Lucy Wang_**
 
-For her senior thesis, Lucy expanded upon this work and wrote [Towards a General Solution for Layout of Visual Goal Models with Actors.](https://amgrubb.github.io/publication/2020-Towards-a-General-Solution-for-Layout-of-Visual-Goal-Models-with-Actors)
+Lucy completed her seniors honors thesis with Prof. Grubb and received highest honors!
+This thesis (see abstract below) came out of the work she started as a SURF student in the summer of 2019. 
+Lucy's thesis proposal was accepted to the ACM Student Research Competition at the 
+51st ACM Technical Symposium on Computer Science Education (SIGCSE'20). Unfortunitely,
+due to COVID-19, SIGCSE'20 was cancelled and Lucy was unable to present her work, but her 
+abstract does appear in the [SIGCSE Proceedings](https://doi.org/10.1145/3328778.3372705).
 
+A chapter of Lucy's thesis formed the basis for the RE@Next paper she co-authored with Prof. Grubb, entitled [Towards a General Solution for Layout of Visual Goal Models with Actors](https://amgrubb.github.io/publication/2020-Towards-a-General-Solution-for-Layout-of-Visual-Goal-Models-with-Actors).
 
+>_Thesis Abstract:_ Goal models help stakeholders make trade-off decisions in the early stages of project development. 
+While these approaches have significant analysis capabilities, 
+they have yet to see broad industrial adoption, with the construction of scalable large realistic goal models acting as a significant barrier. Recent work suggests creating models piecemeal, and then merging them together. This merge algorithm has only been demonstrated manually and is time consuming due to unnecessary repetition, as well as deferring all decisions to the user. We aim to automate the majority of the merge algorithm. We divide this project into two parts: (1) merging the content of goal models, and (2) automatically creating a visual representation of the merged model.  
+We extend prior work on evolving goal models by considering both untimed and timed models in our merge. Using a motivating example, we discuss how we handle conflicts between node names and types as well as conflicts across multiple time scales. We improve the original algorithm by simplifying evolving functions described over multiple intervals, where possible, and prove the correctness of these changes.  
+For the visual representation, we present and implement an automatic layout algorithm.
+Over the last decade, researchers have used \emph{force-directed algorithms}, specifically GraphViz, to layout goal models and have called for improved layout algorithms to better accommodate the unique challenges presented by actor-based models.
+We extend a force-directed algorithm to include goal-model heuristics, and 
+independently arrived at a domain-specific version of a generic layout algorithm for \emph{undirected compound graphs}.
+For initial validation of the effectiveness and scalability of our algorithm, we implement our approach in \formaltool, a goal model analysis tool.  
+Initial results are promising; yet, further collaboration and validation across the various goal modeling approaches (e.g., GRL, iStar, Tropos) is required before we can recommend our approach to be adopted in tooling. 
 
-===
-Towards Merging Models over Different Time Intervals
----
-Omema Ibrahim and Lucy Wang 
----
-BloomingLeaf is an analysis and modeling tool that allows stakeholders to model goals and intentions. The tool helps users understand model evolution and tradeoffs by evaluating how intentions change over time. Prior work looked at creating models piecemeal, by constructing models of individual actors over different time periods and then merging them together. Grubb proposed an algorithm for merging goal models and showed a potential application; but, did not implement the proposed semi-automated algorithm. In this project, we explored the problem domain of this merge algorithm and developed underlying tooling.
-
-To fully implement the algorithm, we needed to merge both the visual syntax and underlying semantics of both un-timed and evolving goal models. We worked on the merging of timed functions. In this project, all functions are step-wise atomic functions over disjoint neighboring intervals, where the atomic functions are constant, increase, decrease, and stochastic. Consider the functions in Figure 1, Model A is an increasing function over the interval [tA1, tA2) and Model B is a constant function over the interval [tB1, tB2). The purpose of our algorithm is to specify Model AB.
-
-Specifying the resulting Model AB depends on the underlying timeline over which each model is defined. For example, in Figure 1, if tA2 < tB1 then there exists an unspecified gap in the function. If tA2 > tB1 then there exists an overlap in the function which may result in a conflict.
-Finally, if tA2 = tB1 then the two functions align. In Figure 1, Model AB assumes the case where tA2 = tB1 with the new interval [tA1, tB2). We focused on the tA2 = tB1 case in this research project.
-
-With this timeline, we investigated how the two functions should be merged. We found that Model A and Model B can be merged into either an increase function followed by a constant function, or an increase function with a single time point specified. We proved (by contradiction) the soundness of our assertion. We implemented the first case of the merge algorithm (tA2 = tB1). Future work will finish the implementation for the two other cases and create a web interface for the merge algorithm.
-
-<img src="/images/surf-1.png"
-     alt="figure 1 as described above, shows three graphs, the first with a slope increasing from 0, the second constant at a positive value, and the third, both previous graphs combined."
-     />
-
-This article is under construction
----
