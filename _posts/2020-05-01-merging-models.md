@@ -21,9 +21,9 @@ While these approaches have significant analysis capabilities,
 they have yet to see broad industrial adoption, with the construction of scalable large realistic goal models acting as a significant barrier. Recent work suggests creating models piecemeal, and then merging them together. This merge algorithm has only been demonstrated manually and is time consuming due to unnecessary repetition, as well as deferring all decisions to the user. We aim to automate the majority of the merge algorithm. We divide this project into two parts: (1) merging the content of goal models, and (2) automatically creating a visual representation of the merged model.  
 We extend prior work on evolving goal models by considering both untimed and timed models in our merge. Using a motivating example, we discuss how we handle conflicts between node names and types as well as conflicts across multiple time scales. We improve the original algorithm by simplifying evolving functions described over multiple intervals, where possible, and prove the correctness of these changes.  
 For the visual representation, we present and implement an automatic layout algorithm.
-Over the last decade, researchers have used \emph{force-directed algorithms}, specifically GraphViz, to layout goal models and have called for improved layout algorithms to better accommodate the unique challenges presented by actor-based models.
+Over the last decade, researchers have used _force-directed algorithms_, specifically GraphViz, to layout goal models and have called for improved layout algorithms to better accommodate the unique challenges presented by actor-based models.
 We extend a force-directed algorithm to include goal-model heuristics, and 
-independently arrived at a domain-specific version of a generic layout algorithm for \emph{undirected compound graphs}.
-For initial validation of the effectiveness and scalability of our algorithm, we implement our approach in \formaltool, a goal model analysis tool.  
+independently arrived at a domain-specific version of a generic layout algorithm for _undirected compound graphs_.
+For initial validation of the effectiveness and scalability of our algorithm, we implement our approach in BloomingLeaf, a goal model analysis tool.  
 Initial results are promising; yet, further collaboration and validation across the various goal modeling approaches (e.g., GRL, iStar, Tropos) is required before we can recommend our approach to be adopted in tooling. 
 
