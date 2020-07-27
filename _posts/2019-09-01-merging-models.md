@@ -7,7 +7,7 @@ permalink: /posts/2019-09-01-merging-models
 Lucy Wang Senior Thesis
 ===
 
-For her senior thesis, Lucy expanded upon this work and wrote [Towards a General Solution for Layout of Visual Goal Models with Actors.]{https://amgrubb.github.io/publication/2020-Towards-a-General-Solution-for-Layout-of-Visual-Goal-Models-with-Actors}
+For her senior thesis, Lucy expanded upon this work and wrote [Towards a General Solution for Layout of Visual Goal Models with Actors.](https://amgrubb.github.io/publication/2020-Towards-a-General-Solution-for-Layout-of-Visual-Goal-Models-with-Actors)
 
 
 Summary from Summer 2019

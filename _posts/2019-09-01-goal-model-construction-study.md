@@ -3,7 +3,7 @@ title: 'Goal Model Construction'
 date: 2019-09-01
 permalink: /posts/2019-09-01-goal-model-construction-study
 ---
-This work is published in the Proceedings of the 13th International i* Workshop, the abstract and talk slides can be veiwed [here.]{https://amgrubb.github.io/publication/2020-A-Preliminary-Investigation-of-the-Utility-of-Goal-Model-Construction}
+This work is published in the Proceedings of the 13th International i* Workshop, the abstract and talk slides can be veiwed [here.](https://amgrubb.github.io/publication/2020-A-Preliminary-Investigation-of-the-Utility-of-Goal-Model-Construction)
 
 
 Summary from Summer 2019
