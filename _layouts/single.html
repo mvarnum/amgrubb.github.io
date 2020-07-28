@@ -61,7 +61,7 @@ layout: default
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        <!--{% include page__taxonomy.html %}-->
+        {% include page__taxonomy.html %}
         </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
@@ -88,5 +88,12 @@ layout: default
       </div>
     </div>
   {% endif %}
+</div>
+
+<div class="page__footer">
+  <footer>
+    {% include footer/custom.html %}
+    {% include footer.html %}
+  </footer>
 </div>
 
