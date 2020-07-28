@@ -14,11 +14,13 @@ Goal models are a collection of nodes and links that represent the intentions of
 They can be used to make decisions in early-phase requirements engineering as well as in other contexts. 
 The following image is an example of a goal model created in our tool BloomingLeaf, a browser-based tool developed by the lab. 
 See below to join us. 
+
 <div>
 <img src="/images/goal-model1.png"
      alt="A goal model showing a student deciding what to have for lunch"
-     style=" margin-left: auto; margin-right: auto;height: 200px;" /> 
+     style="display:block; margin-left: auto; margin-right: auto; width: 30%;" /> 
 </div>
+
 ## Lab Members
 
 
@@ -50,7 +52,7 @@ Megan is from Eastern Washington and joined the lab as a STRIDE student in Septe
 
 
 <div style = "height: 400px; margin: 25px;" markdown = "1">
-<img src="/images/lauren.jepg"
+<img src="/images/lauren.jpeg"
      alt="Lauren Headshot"
      style="float: right; height: 300px; padding-left: 30px;" />
 **Lauren Forando** '21 (Work Study 2019)
