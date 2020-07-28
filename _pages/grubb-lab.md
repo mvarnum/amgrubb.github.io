@@ -18,7 +18,7 @@ See below to join us.
 <div>
 <img src="/images/goal-model1.png"
      alt="A goal model showing a student deciding what to have for lunch"
-     style="display:block; margin-left: auto; margin-right: auto; width: 40%;" /> 
+     style="display:block; margin-left: auto; margin-right: auto; width: 50%;" /> 
 </div>
 
 ## Lab Members
