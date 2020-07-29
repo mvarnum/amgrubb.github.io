@@ -6,6 +6,7 @@ excerpt: Megan H. Varnum\*, Kate M. B. Spencer\*, Alicia M. Grubb
 date: 2020-01-01
 venue: 'Proceedings of the 13th International i* Workshop iStar'
 citation: ' Megan H. Varnum*,  Kate M. B. Spencer*,  Alicia M. Grubb, "Towards an Evaluation Visualization with Color." Proceedings of the 13th International i* Workshop iStar, 2020.'
+layout: archive
 ---
 [Author PrePrint](https://amgrubb.github.io/files/2020-Towards-an-Evaluation-Visualization-with-Color.pdf) [Talk Slides](https://amgrubb.github.io/files/iStar2020_Paper01_presentation.pdf)
 
