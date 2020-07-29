@@ -4,6 +4,7 @@ date: 2019-09-01
 excerpt: Naomi Cebula and Lily Diao
 collection: projects
 permalink: /posts/2019-09-01-goal-model-construction-study
+layout: archive
 ---
 
 > **_Note:_** This work is published in the Proceedings of the 13th International i* Workshop, the abstract and talk slides can be veiwed [here](https://amgrubb.github.io/publication/2020-A-Preliminary-Investigation-of-the-Utility-of-Goal-Model-Construction).

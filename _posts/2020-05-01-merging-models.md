@@ -4,6 +4,7 @@ date: 2020-05-01
 excerpt: Yilin Lucy Wang
 collection: projects
 permalink: /posts/2020-05-01-merging-models
+layout: archive
 ---
 
 **Automatically Merging Evolving Goal Models**  

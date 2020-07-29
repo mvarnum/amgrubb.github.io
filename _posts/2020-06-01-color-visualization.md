@@ -4,6 +4,7 @@ date: 2020-06-01
 excerpt: Megan H. Varnum and Kate M. B. Spencer
 collection: projects
 permalink: /posts/2020-06-01-color-visualization
+layout: archive
 ---
 
 > **_Note:_** This work is published in the Proceedings of the 13th International i* Workshop, the abstract and talk slides can be veiwed [here](https://amgrubb.github.io/publication/2020-Towards-an-Evaluation-Visualization-with-Color).
