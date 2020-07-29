@@ -1,6 +1,8 @@
 ---
 title: 'Porting BloomingLeaf to Local Node.js Server'
 date: 2019-09-01
+excerpt: Omema Ibrahim and Lucy Wang
+collection: projects
 permalink: /posts/2019-09-01-local-bloomingleaf
 ---
 

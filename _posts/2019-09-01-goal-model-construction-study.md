@@ -1,6 +1,8 @@
 ---
 title: 'Goal Model Construction Study'
 date: 2019-09-01
+excerpt: Naomi Cebula and Lily Diao
+collection: projects
 permalink: /posts/2019-09-01-goal-model-construction-study
 ---
 

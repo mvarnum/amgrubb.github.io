@@ -1,6 +1,8 @@
 ---
 title: 'Color Visualization in Modeling and Analysis'
 date: 2020-06-01
+excerpt: Megan H. Varnum and Kate M. B. Spencer
+collection: projects
 permalink: /posts/2020-06-01-color-visualization
 ---
 
