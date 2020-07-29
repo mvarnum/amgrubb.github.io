@@ -6,6 +6,7 @@ excerpt: Alicia M. Grubb
 date: 2015-01-01
 venue: 'Proceedings of the Seventh International Workshop on Modeling in Software Engineering MiSE'
 citation: ' Alicia M. Grubb, "Adding Temporal Intention Dynamics to Goal Modeling: A Position Paper." Proceedings of the Seventh International Workshop on Modeling in Software Engineering MiSE, 2015.'
+layout: archive
 ---
 [Author PrePrint](http://www.cs.toronto.edu/~amgrubb/archive/MiSE-2015.pdf)
 

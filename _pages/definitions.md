@@ -16,9 +16,10 @@ author_profile: false
 
 Goal Models
 
-Intentions (also known as nodes)
+Intentions
 
 Evidence Pairs
 
 Evaluations
 
+Links

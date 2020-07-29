@@ -6,6 +6,7 @@ excerpt: Alicia M. Grubb, Marsha Chechik
 date: 2020-01-01
 venue: 'Requirements Engineering'
 citation: ' Alicia M. Grubb,  Marsha Chechik, "Reconstructing the Past: The Case of the Spadina Expressway." Requirements Engineering, 2020.'
+layout: archive
 ---
 [Authors PrePrint](http://www.cs.toronto.edu/~amgrubb/archive/REJ19.pdf) This is a post-peer-review, pre-copy edit version of an article published in Requirements Engineering
 

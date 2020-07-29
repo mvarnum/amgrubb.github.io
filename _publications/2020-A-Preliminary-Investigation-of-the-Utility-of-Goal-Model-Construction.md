@@ -6,6 +6,7 @@ excerpt: Naomi Cebula\*, Lily Diao\*, Alicia M. Grubb
 date: 2020-01-01
 venue: 'Proceedings of the 13th International i* Workshop iStar'
 citation: ' Naomi Cebula*,  Lily Diao*,  Alicia M. Grubb, "A Preliminary Investigation of the Utility of Goal Model Construction." Proceedings of the 13th International i* Workshop iStar, 2020.'
+layout: archive
 ---
 [Author PrePrint](https://amgrubb.github.io/files/2020-A-Preliminary-Investigation-of-the-Utility-of-Goal-Model-Construction.pdf) [Talk Slides](https://amgrubb.github.io/files/iStar2020_Paper02_presentation.pdf)
 

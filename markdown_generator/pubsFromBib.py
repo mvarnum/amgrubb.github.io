@@ -156,6 +156,8 @@ for pubsource in publist:
             
             md += "\ncitation: '" + citation + "'"
 
+            md+= "\nlayout: archive"
+
             md += "\n---"
 
 

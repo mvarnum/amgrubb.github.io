@@ -6,6 +6,7 @@ excerpt: Y. Lucy Wang, Alicia M. Grubb
 date: 2020-01-01
 venue: 'Proceedings of the IEEE 28th International Requirements Engineering Conference RE'
 citation: ' Y. Lucy Wang,  Alicia M. Grubb, "Towards a General Solution for Layout of Visual Goal Models with Actors." Proceedings of the IEEE 28th International Requirements Engineering Conference RE, 2020.'
+layout: archive
 ---
 [Author PrePrint](https://amgrubb.github.io/files/2020-Towards-a-General-Solution-for-Layout-of-Visual-Goal-Models-with-Actors.pdf)
 
