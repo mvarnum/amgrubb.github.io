@@ -6,7 +6,6 @@ author_profile: false
 ---
 {% include base_path %}
 
-**Page under construction! 7/21/2020**
 
 The Grubb lab is the software engineering lab in the Department of [Computer Science](http://cs.smith.edu/) at [Smith College](www.smith.edu). 
 Our work focuses on goal modeling, and how stakeholders can effectively use models in collaboration. 

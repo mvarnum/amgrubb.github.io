@@ -4,7 +4,6 @@ title: "Select Publications"
 permalink: /publications/
 author_profile: true
 ---
-**Page under construction! 7/21/2020**
 
 See full list on [DBLP](https://dblp.org/pers/hd/g/Grubb:Alicia_M=) or [Google Scholar](https://scholar.google.com/citations?user=br2VoDkAAAAJ&hl=en&authuser=1).
 
