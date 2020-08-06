@@ -17,7 +17,7 @@
 
 ##GRUBB LAB: journal.bib has any journal papers, book.bib has theses, pubs.bib is the rest. Make sure all are exported as BibLatex with notes
 ##Additionally, the daggers won't be written in to the markdown files, so will need to be replaced before pushing as they will break the site if not.
-##Also I am not sure if the jupyter notebook updates when updates are made here, so use at own risk
+##Also I am not sure if the jupyter notebook updates when updates are made here, so use that at own risk
 
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
