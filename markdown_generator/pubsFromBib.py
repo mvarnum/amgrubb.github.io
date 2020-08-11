@@ -183,7 +183,8 @@ for pubsource in publist:
 
 
             ## add citation
-            md+= "\n" +citation;
+            md+= "\n" +citation.replace("*","\*");
+            
             ## Markdown description for individual page
             if annotation:
                 md += "\n" + b["annotation"].replace("{\\textasciitilde}","~").replace("\\","").replace("{", "").replace("}","") + "\n"
