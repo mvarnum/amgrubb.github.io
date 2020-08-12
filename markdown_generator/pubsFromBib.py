@@ -183,7 +183,7 @@ for pubsource in publist:
 
 
             ## add citation
-            md+= "\n" +citation.replace("*","\*");
+            md+= "\n" +citation.replace("*","\*")+"\n";
             
             ## Markdown description for individual page
             if annotation:
