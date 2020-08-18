@@ -1,7 +1,7 @@
 ---
 title: 'Exploring Uncertainties in COVID-19 Modeling'
 date: 2020-08-20
-excerpt: Kate Spencer and Megan Varnum
+excerpt: Kate M. B. Spencer and Megan H. Varnum
 collection: projects
 permalink: /posts/2020-08-20-covid-uncertainties
 layout: archive
